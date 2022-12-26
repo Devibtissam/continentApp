@@ -1,0 +1,7 @@
+export const FETCH_CONTINENTS = "FETCH_CONTINENTS";
+export const FETCH_SUCCES = "FETCH_SUCCES";
+export const FETCH_FAILED = "FETCH_FAILED";
+export const ADD_COUNTRY = "ADD_COUNTRY";
+export const UPDATE_COUNTRY = "UPDATE_COUNTRY";
+
+

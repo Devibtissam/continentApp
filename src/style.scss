@@ -1,0 +1,96 @@
+:root{
+    --darkColor: hsl(180, 25%, 25%);
+    --orangeColor: hsl(18, 100%, 60%);
+    --white: hsl(0, 0%, 98%);
+    --grayColor: hsl(0, 26%, 93%);
+    --box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+body{
+    background-color: var(--white);
+   
+}
+
+*,
+*::before,
+*::after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul,
+li,
+ol{
+  list-style: none
+}
+
+a{
+  text-decoration: none;
+  color: unset;
+}
+
+.center{
+  max-width: 95%;
+  margin-inline: auto;
+}
+
+h1,
+h2,
+h3,
+h6,
+h5{
+    color: var(--orangeColor);
+}
+
+img{
+    width: 100%;
+}
+
+.link{
+    font-weight: 700;
+    color: var(--darkColor);
+
+}
+
+.pd-y{
+    padding-block: 5rem;
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding-block: 2rem;
+    gap: 1%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.btn{
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--orangeColor);
+    color: var(--darkColor);
+    font-weight: 700;
+}
+
+.years{
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+}
+select{
+     padding: 0.25rem 1.5rem ;
+     background-color: unset;
+     outline: unset;
+     border: 1px solid var(--grayColor);
+
+}
+
+input{
+    padding: 0.5rem 1rem ;
+    border-radius: 5px;
+    outline: unset;
+    border: 1px solid var(--grayColor);
+}

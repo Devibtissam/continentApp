@@ -1,0 +1,26 @@
+.continent{
+    margin-block: 1.25rem;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+    flex-basis: 49%;
+    @media (min-width: 1200px){
+        flex-basis: 24.25%;
+    }
+    &__wrapper{
+        height: 150px;
+        background-color: #FAF8F1;
+        display: grid;
+        place-items: center;
+    }
+    &__info{
+        padding: 1.125rem;
+        & > *{
+            margin-bottom: 0.5rem;
+
+        }
+        & > p span {
+            color: var(--darkColor);
+            font-weight: 700;
+        }
+    }
+}

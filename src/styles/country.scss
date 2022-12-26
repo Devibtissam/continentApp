@@ -1,0 +1,22 @@
+.country{
+    @media (min-width: 800px){
+        display: flex;
+        justify-content: center;
+        gap: 3%;
+        &__img{
+            flex-basis: 45%;
+        }
+    }
+    
+    &__info{
+        padding: 0.5rem;
+        & > p {
+            margin-bottom: 0.25rem;
+        }
+        & > p span {
+            color: var(--darkColor);
+            font-weight: 800;
+        }
+    }
+   
+}

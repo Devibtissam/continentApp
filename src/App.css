@@ -1,38 +1,52 @@
-.App {
+
+
+.container{
+  padding-block: 2rem;
+}
+
+.link{
+  padding: 0.25rem 1.5rem;
+  background-color: rgb(196, 187, 63);
+  color: black;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+.nav,
+ul{
+  padding: 0.75rem;
+}
+
+.nav__links > li a {
+  color: rgb(196, 187, 63);
+  font-weight: 700;
+}
+h2{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.continentWrapper{
+  height: 150px;
+  /* width: 450; */
+  background-color: antiquewhite;
+  display: grid;
+  place-items: center;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.continent_info{
+  padding: 0.4rem;
+}
+.continent_info > * {
+  margin-bottom: 0.5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.continent_info > p span {
+  color: black;
+  font-weight: 600;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.continent_info > *:last-child{
+  /* background-color: red; */
+  margin-top: 1rem;
 }
